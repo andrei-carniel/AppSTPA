@@ -1,1 +1,3 @@
 This folder contains the **article codes**. To use them, follow the instructions: ... 
+
+The code is under the GPL license.
