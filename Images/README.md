@@ -1,1 +1,1 @@
-**Figures of the work.**
+**Figures** of the work.
