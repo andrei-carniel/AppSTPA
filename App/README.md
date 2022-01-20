@@ -1,0 +1,1 @@
+This folder contains the **AppSTPA**. The software will be free under GPL licence after the article publication.
