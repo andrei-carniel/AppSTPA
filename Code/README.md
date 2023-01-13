@@ -1,5 +1,3 @@
-This folder contains the AppSTPA source code.  
+This folder contains the AppSTPA source code. We use the Python 3.9 and Owlready2 0.29 as libs.
 
 **The code is under the GPL license.**
-
-The folder *venv* contains the used libraries.
