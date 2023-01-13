@@ -10,5 +10,8 @@ This folder contains the **AppSTPA**, **article codes**, and **figures**.
 > The folder **Images** has the ontology figures in high quality.
 
 
+
+
 *Contact*
+
 For doubts, suggestions, or other subjects, send an e-mail to: andrei.carniel@gmail.com.
