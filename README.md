@@ -18,7 +18,7 @@ app_1.0.0
 
 Open the folder and execute "app.exe", for instance:
 ```
-./app_1.0.0/app.exe
+./App/app_1.0.0/app.exe
 ```
 
 > The folder **Images** has the ontology figures in high quality.
