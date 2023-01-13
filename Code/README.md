@@ -1,5 +1,5 @@
-This folder contains the **article codes**. To use them, follow the instructions: ... 
+This folder contains the AppSTPA source code.  
 
-The code is under the GPL license.
+**The code is under the GPL license.**
 
-The code will be free after article publication.
+The folder *venv* contains the used libraries.
