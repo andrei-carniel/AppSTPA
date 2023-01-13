@@ -1,0 +1,1825 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#"
+     xml:base="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#affects -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#affects">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Environmental_disturbances"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Controlled_process_CP"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#associates_with -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#associates_with"/>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#avoids -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#avoids">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#System"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Loss_mishap"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#conflicting_control_action -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#conflicting_control_action">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Causal_factor_B"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#constrains -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#constrains">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Safety_constraint"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#System"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#defines -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#defines"/>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#delayed_executed_not-executed_failure -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#delayed_executed_not-executed_failure">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Causal_factor_B"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#delayed_inadequate_missing -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#delayed_inadequate_missing">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Causal_factor_A"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#delayed_wrong_missing_feedback_failure -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#delayed_wrong_missing_feedback_failure">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Causal_factor_A"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#failure -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#failure">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Causal_factor_A"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#has -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#has"/>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#identifies -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#identifies"/>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#inappropriate_missing -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#inappropriate_missing">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Causal_factor_B"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#incorrect_ineffective_updated -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#incorrect_ineffective_updated">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Causal_factor_A"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_also -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_also"/>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lacp -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lacp">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_actuator_CP"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lca -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lca">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_controller_actuator"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lccp -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lccp">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_controller_CP"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lce -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lce">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_controller_external-information"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lch -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lch">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_controller_HLC"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lcpc -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lcpc">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_CP_controller"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lcph -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lcph">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_CP_HLC"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lcps -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lcps">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_CP_sensor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lec -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lec">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_external-information_controller"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lhc -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lhc">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_HLC_controller"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lhcp -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lhcp">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_HLC_CP"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lsc -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lsc">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_sensor_controller"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lsh -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lsh">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_sensor_HLC"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#issues -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#issues">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Control_action"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#leads -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#leads"/>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#missing_wrong_input -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#missing_wrong_input">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Causal_factor_B"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#produces -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#produces">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Controlled_process_CP"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Output"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#receives -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#receives"/>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#refines -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#refines"/>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#represents -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#represents"/>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#respects -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#respects">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Assumption"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#selects -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#selects"/>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#sends -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#sends"/>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#unidentified-disturbance -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#unidentified-disturbance">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Causal_factor_B"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#updates -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#updates">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Process_model"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#uses -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#uses">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Algorithm"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Process_model"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#wrong_missing_external_information -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#wrong_missing_external_information">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Causal_factor_A"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#wrong_process_model -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#wrong_process_model">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Causal_factor_A"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Actuator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Actuator">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#delayed_executed_not-executed_failure"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Causal_factor_B"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lacp"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_actuator_CP"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lca"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_controller_actuator"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#receives"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Control_action_actuator"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Algorithm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Algorithm">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#incorrect_ineffective_updated"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Causal_factor_A"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#selects"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Control_action_CP"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#selects"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Control_action_actuator"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#uses"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Process_model"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Applied_too_long -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Applied_too_long">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#UCA_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Assumption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Assumption"/>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Causal_factor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Causal_factor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Causal_factor_A -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Causal_factor_A">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Causal_factor"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#defines"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Loss_scenario_A"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#identifies"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Safety_recommendation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Causal_factor_B -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Causal_factor_B">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Causal_factor"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#defines"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Loss_scenario_B"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#identifies"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Safety_recommendation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Context -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Context">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#defines"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#UCA"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Values"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Variables"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Control_action -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Control_action">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#defines"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#UCA"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Control_action_CP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Control_action_CP">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Control_action"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#inappropriate_missing"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Causal_factor_B"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lccp"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_controller_CP"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Control_action_HLC_CP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Control_action_HLC_CP">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Control_action"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#conflicting_control_action"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Causal_factor_B"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lhcp"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_HLC_CP"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Control_action_HLC_controller -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Control_action_HLC_controller">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Control_action"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#inappropriate_missing"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Causal_factor_B"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lhc"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_HLC_controller"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#updates"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Process_model"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Control_action_actuator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Control_action_actuator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Control_action"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#inappropriate_missing"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Causal_factor_B"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lca"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_controller_actuator"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Control_structure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Control_structure">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Actuator"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Assumption"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Controlled_process_CP"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Controller"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#HLC"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Sensor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#receives"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Feedback"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#represents"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#System"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Controlled_process_CP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Controlled_process_CP">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lacp"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_actuator_CP"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lccp"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_controller_CP"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lcpc"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_CP_controller"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lcph"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_CP_HLC"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lcps"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_CP_sensor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lhcp"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_HLC_CP"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#produces"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Output"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#receives"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Control_action_CP"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#receives"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Control_action_HLC_CP"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#receives"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Input"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Controller -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Controller">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#failure"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Causal_factor_A"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Algorithm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Process_model"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lca"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_controller_actuator"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lccp"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_controller_CP"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lce"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_controller_external-information"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lch"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_controller_HLC"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lcpc"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_CP_controller"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lec"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_external-information_controller"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lhc"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_HLC_controller"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lsc"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_sensor_controller"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#issues"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Control_action_CP"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#issues"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Control_action_actuator"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#receives"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Control_action_HLC_controller"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#receives"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#External-information-received"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#receives"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Feedback_of_CP"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#sends"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#External-information-sent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#sends"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Feedback_of_controller"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Energy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Energy">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lacp"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_actuator_CP"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lcps"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_CP_sensor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Environmental_disturbances -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Environmental_disturbances">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#affects"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Controlled_process_CP"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#unidentified-disturbance"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Causal_factor_B"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#External-information-received -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#External-information-received">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lec"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_external-information_controller"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#updates"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Process_model"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#wrong_missing_external_information"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Causal_factor_A"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#External-information-sent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#External-information-sent">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lce"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_controller_external-information"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#External-system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#External-system">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lce"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_controller_external-information"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lec"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_external-information_controller"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#receives"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#External-information-sent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#sends"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#External-information-received"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Feedback -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Feedback"/>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Feedback_of_CP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Feedback_of_CP">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Feedback"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#delayed_inadequate_missing"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Causal_factor_A"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lcpc"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_CP_controller"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lcph"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_CP_HLC"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lsc"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_sensor_controller"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lsh"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_sensor_HLC"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#updates"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Process_model"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Feedback_of_controller -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Feedback_of_controller">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Feedback"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#delayed_inadequate_missing"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Causal_factor_A"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lch"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_controller_HLC"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Goal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Goal"/>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#HLC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#HLC">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_also"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Controller"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lch"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_controller_HLC"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lcph"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_CP_HLC"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lhc"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_HLC_controller"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lhcp"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_HLC_CP"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lsh"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_sensor_HLC"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#issues"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Control_action_HLC_CP"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#issues"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Control_action_HLC_controller"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#receives"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Feedback_of_CP"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#receives"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Feedback_of_controller"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Hazard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Hazard">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#associates_with"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Loss_mishap"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#defines"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#UCA"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Input -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Input">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#missing_wrong_input"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Causal_factor_B"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link"/>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_CP_HLC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_CP_HLC">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_CP_controller -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_CP_controller">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_CP_sensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_CP_sensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_HLC_CP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_HLC_CP">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_HLC_controller -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_HLC_controller">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_actuator_CP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_actuator_CP">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_controller_CP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_controller_CP">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_controller_HLC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_controller_HLC">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_controller_actuator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_controller_actuator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_controller_external-information -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_controller_external-information">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_external-information_controller -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_external-information_controller">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_sensor_HLC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_sensor_HLC">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_sensor_controller -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_sensor_controller">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Loss_mishap -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Loss_mishap"/>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Loss_scenario -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Loss_scenario">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Rationale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Safety_recommendation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Loss_scenario_A -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Loss_scenario_A">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Loss_scenario"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#leads"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#UCA"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Loss_scenario_B -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Loss_scenario_B">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Loss_scenario"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#leads"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#UCA"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Not_provided -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Not_provided">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#UCA_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Out_of_order -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Out_of_order">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#UCA_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Output -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Output"/>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Process_model -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Process_model">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Variables"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#wrong_process_model"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Causal_factor_A"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Provided -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Provided">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#UCA_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Rationale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Rationale"/>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Safety_constraint -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Safety_constraint">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#associates_with"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Hazard"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#constrains"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#System"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Safety_recommendation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Safety_recommendation">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#defines"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Safety_constraint"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Sensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Sensor">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#delayed_wrong_missing_feedback_failure"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Causal_factor_A"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lcps"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_CP_sensor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lsc"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_sensor_controller"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#is_part_of_lsh"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_sensor_HLC"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#sends"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Feedback_of_CP"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Stopped_too_soon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Stopped_too_soon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#UCA_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#System">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#avoids"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Loss_mishap"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Goal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#respects"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Assumption"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Too_early -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Too_early">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#UCA_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Too_late -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Too_late">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#UCA_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#UCA -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#UCA">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#defines"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Loss_scenario_A"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#defines"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Loss_scenario_B"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#leads"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Hazard"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#refines"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Safety_constraint"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#UCA_type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#UCA_type">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#defines"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#UCA"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Values -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Values"/>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Variables -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Variables">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Values"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Actuator -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Actuator">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Actuator"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Algorithm -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Algorithm">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Algorithm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#CP -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#CP">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Controlled_process_CP"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Context -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Context">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Context"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Control_action_CP -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Control_action_CP">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Control_action_CP"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Control_action_HLC_CP -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Control_action_HLC_CP">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Control_action_HLC_CP"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Control_action_HLC_controller -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Control_action_HLC_controller">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Control_action_HLC_controller"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Control_action_actuator -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Control_action_actuator">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Control_action_actuator"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Controller -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Controller">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Controller"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Energy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Energy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Energy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Environmental_disturbances -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Environmental_disturbances">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Environmental_disturbances"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#External-information-received -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#External-information-received">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#External-information-received"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#External-information-sent -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#External-information-sent">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#External-information-sent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Feedback_of_CP -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Feedback_of_CP">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Feedback_of_CP"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Feedback_of_controller -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Feedback_of_controller">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Feedback_of_controller"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#HLC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#HLC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#HLC"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Input -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Input">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Input"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_CP_Controller -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_CP_Controller">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_CP_controller"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_CP_hlc -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_CP_hlc">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_CP_HLC"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_CP_sensor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_CP_sensor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_CP_sensor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_External-information_controller -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_External-information_controller">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_external-information_controller"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_HLC_CP -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_HLC_CP">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_HLC_CP"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_HLC_controller -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_HLC_controller">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_HLC_controller"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_actuator_CP -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_actuator_CP">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_actuator_CP"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_controller_CP -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_controller_CP">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_controller_CP"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_controller_External-information -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_controller_External-information">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_controller_external-information"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_controller_HLC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_controller_HLC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_controller_HLC"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_controller_actuator -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_controller_actuator">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_controller_actuator"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_sensor_HLC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_sensor_HLC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_sensor_HLC"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_sensor_controller -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_sensor_controller">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Link_sensor_controller"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Output -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Output">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Output"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Process_model -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Process_model">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Process_model"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Saf_System_level_hazards -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Saf_System_level_hazards">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Hazard"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Saf_UCA_type -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Saf_UCA_type">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#UCA_type"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Sensor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Sensor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Sensor"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
