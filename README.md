@@ -2,8 +2,24 @@ This work is a partial result of an ongoing Ph.D. research performed on Institut
 
 This application uses an STPA ontology to improve the STPA analysis and achieve a better result. For further explanation and access to the results of this work, read the article: DOI...
 
-This folder contains the **AppSTPA**, **source code**, and **ontology figures**.
+This folder contains the **AppSTPA** and **ontology figures**.
 > The folder **App** has the AppSTPA tool and instructions to run. The tool is free to use under **GPL license**.
+
+
+System requirements:
+
+- Windows 10 or higher.
+- Java 64.
+	
+To run the application, download the folder with the version of the desired application, for instance:
+```
+app_1.0.0
+```
+
+Open the folder and execute "app.exe", for instance:
+```
+./app_1.0.0/app.exe
+```
 
 > The folder **Images** has the ontology figures in high quality.
 
