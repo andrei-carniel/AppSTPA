@@ -10,4 +10,4 @@ The ontology representing each STPA step is shown in the figures:
 
 > 3 - step_three_stpa.png
 
-> 4 - step_four_stpa.pngs
+> 4 - step_four_stpa.png
