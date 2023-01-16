@@ -23,7 +23,7 @@ Open the folder and execute "app.exe", for instance:
 
 > The folder **Images** has the ontology figures in high quality.
 
-The source code of AppSTPA is under **GPL license**.and can be downloaded in: https://github.com/andrei-carniel/AppSTPA-source_code
+The source code of AppSTPA is under **GPL license**, and can be downloaded in: https://github.com/andrei-carniel/AppSTPA-source_code
 
 
 *Contact*
