@@ -13,12 +13,12 @@ System requirements:
 	
 To run the application, download the folder with the version of the desired application, for instance:
 ```
-app_1.0.0
+app_1.0.1
 ```
 
 Open the folder and execute "app.exe", for instance:
 ```
-./App/app_1.0.0/app.exe
+./App/app_1.0.1/app.exe
 ```
 
 > The folder **Images** has the ontology figures in high quality.

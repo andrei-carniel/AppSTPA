@@ -7,10 +7,10 @@ System requirements:
 	
 To run the application, download the folder with the version of the desired application, for instance:
 ```
-app_1.0.0
+app_1.0.1
 ```
 
 Open the folder and execute "app.exe", for instance:
 ```
-./app_1.0.0/app.exe
+./app_1.0.1/app.exe
 ```
