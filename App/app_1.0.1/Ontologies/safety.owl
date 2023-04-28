@@ -1275,6 +1275,13 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#UCA"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#has"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Causal_factor_A"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1287,6 +1294,13 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#leads"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#UCA"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#has"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/andre/ontologies/2022/9/untitled-ontology-21#Causal_factor_B"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
